@@ -1,0 +1,14 @@
+#!/bin/sh
+
+echo "#!/bin/sh
+gnome-terminal" >> TerminalOpenHere # Choose another terminal if you want (konsole, terminator, xterm...)
+chmod +x TerminalOpenHere
+mkdir -p $HOME/.local/share/nautilus/scripts $HOME/.config/nautilus
+mv ./TerminalOpenHere $HOME/.local/share/nautilus/scripts/TerminalOpenHere
+nautilus -q
+echo "F12 TerminalOpenHere
+; Commented lines must have a space after the semicolon
+; Examples of other key combinations:
+; <Control>F12 TerminalOpenHere
+; <Alt>:QF12 TerminalOpenHere
+; <Shift>F12 TerminalOpenHere" >> $HOME/.config/nautilus/scripts-accels
