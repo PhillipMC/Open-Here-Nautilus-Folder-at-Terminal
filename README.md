@@ -1,4 +1,4 @@
-###Open Here Nautilus Folder at Terminal
+# Open Here Nautilus Folder at Terminal
 
 It is a simple script that open a terminal window pressing F12 at keyboard. _gnome-terminal_ by default, but you can change by another if you want
 
@@ -9,12 +9,11 @@ How to use: // Como usarlo:
 $ chmod +x OpenTerminal
 $ OpenTerminal
 ```
-Thanks to: // Gracias a:
+_Thanks to:_ // _Gracias a:_
 [Eliah Kagan, 
 amartin1911](https://askubuntu.com/questions/68078/keyboard-shortcut-for-open-a-terminal-here#answer-1079882)
 
 
-**Tested Ubuntu 18.04**
+**Tested Ubuntu 18.04 LTS**
 
-
-**Probado en Ubuntu 18.04**
+**Probado en Ubuntu 18.04 LTS**
